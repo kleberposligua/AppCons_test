@@ -12,6 +12,13 @@ namespace AppCons_test
         {
             Console.WriteLine("Hola mundo c#");
             Console.WriteLine("Pulse una tecla para continuar...");
+            
+
+            //bucle for
+            for(int i=0; i<10; i++)
+            {
+                Console.WriteLine("Hola {0}", i);
+            }
             Console.ReadKey();
         }
     }
