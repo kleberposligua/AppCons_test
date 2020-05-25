@@ -28,6 +28,13 @@ namespace AppCons_test
             }
             Console.ReadKey();
 
+            //bucle en rama nueva
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Saludos {0}", i);
+            }
+            Console.ReadKey();
+
         }
     }
 }
