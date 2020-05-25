@@ -28,6 +28,15 @@ namespace AppCons_test
             }
             Console.ReadKey();
 
+            //bucle while en rama nueva
+            int i = 0;
+            while (i<10)
+            {
+                i++;
+                Console.WriteLine("Nueva línea {0}", i);
+            }
+
+
         }
     }
 }
