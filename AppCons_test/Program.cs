@@ -36,7 +36,10 @@ namespace AppCons_test
                 Console.WriteLine("Nueva línea {0}", j);
             }
 
-
+            //condicionales
+            int a = 10, b = 100;
+            if (a > b)
+                Console.WriteLine("Hola");
         }
     }
 }
